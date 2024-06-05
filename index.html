@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {content: ["./src/**/*.{html,js}"],
+    theme: {
+      extend: {
+        fontFamily: {
+          Inter: ["Inter"]
+        }
+      },
+    },
+    plugins: [],
+  }
+  </script>
+</head>
+<body>
+    <nav class="flex justify-between mx-16 my-8">
+        <div class="flex gap-8">
+            <div><img class="w-[91px] h-[32px]" src="./assets/svg.png" alt="logo"></div>
+            <div>
+                <ul class="flex gap-8 text-[#050038] text-[16px] ">
+                    <li><a href="index.html">Product</a></li>
+                    <li><a href="index.html">Solution</a></li>
+                    <li><a href="index.html">Resources</a></li>
+                    <li><a href="index.html">Enterprise</a></li>
+                    <li><a href="index.html">Pricing</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+                <ul class="flex gap-8 text-g text-[16px]">
+                    <li><a class="flex gap-4" href="#"><img class="w-[24px] h-[24px]" src="./assets/world.png" alt="">EN</a></li>
+                    <li><a href="#">Contact Sales</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li class="bg-[#4262FF] mt-[-4px] rounded-3xl p-2 text-white"><a href="#">Sign up free</a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <section class="mx-32 mt-24 flex gap-4]">
+        <div class=" w-[440px] h-[469px">
+            <h1 class="w-[376px] h-[112px] items-center text-[48px] text-[#050038] font-bold">Take ideas from better to best</h1>
+            <p class="w-[428px] h-[48px] mt-10 text-[#050038] text-[18px]">Miro is your team's visual platform to connect, collaborate, and create — together.</p>
+            <input class=" mt-10 w-[440px] h-[48px] px-4 placeholder:w-[374px] placeholder:h-[22px] placeholder:text-[#5F5C80] border-2 border-[#5F5C80] rounded-full" type="text" placeholder= "Enter your work email">
+            <button class="mt-4 w-[440px] h-[48px] px-4  border rounded-full bg-[#4262FF] text-white text-center">Sign up free →</button>
+            <p class="mt-2 text-[14px] w-[300px] h-[20px] text-[#89879d]">Collaborate with your team within minutes</p>
+            <img src="./assets/rating.png" class="mt-12 w-[350px] h-[60px]" alt="">
+        </div>
+
+        <div>
+            <img src="./assets/div.png" class="w-[840px] h-[462px]" alt="">
+        </div>
+    </section>
+
+    <section class=" my-24">
+        <p class="text-center text-[18px] text-[#696688]">Trusted by 45M+ users</p>
+        <img class="w-[1120px] h-[64px] ml-24 mt-12" src="./assets/support.png" alt="">
+    </section>
+
+    <section class="my-24">
+        <div>
+            <h1 class=" text-[#050038] text-center text-[48px] font-bold">Collaborate without <br> constraints</h1>
+        </div>
+        <div class="mx-32 flex gap-14 mt-8">
+            <div>
+                <h1 class="font-bold text-[24px] text-[#050038]">Free Forever</h1>
+                <p class="mt-8 text-[#4262FF]">Our free plan gives you unlimited team members, 3 boards, and 300+ expert-made templates. Signing up with your work email lets you bring in your team faster. See our pricing plans for more features.</p>
+            </div>
+            <div>
+                <h1 class="font-bold text-[24px] text-[#050038]">Easy Integration</h1>
+                <p class="mt-8 text-[#4262FF]">Miro has 100+ powerful integrations with tools you already use like G Suite, Slack, and Jira, so your workflow is seamless. View the full list in our Marketplace .</p>
+            </div>
+            <div>
+                <h1 class="font-bold text-[24px] text-[#050038]">Security first</h1>
+                <p class="mt-8 text-[#4262FF]">We treat your data like you would — with the utmost care. We follow industry-leading security standards and give you tools to protect intellectual property. Learn more at our Trust Center ..</p>
+            </div>
+        </div>
+
+        <div class="bg-[#4262FF] w-[178px] h-[48px] rounded-3xl text-center mt-24 pt-3 ml-[570px] text-white">Sign up free</div>
+    </section>
+
+    <section class="flex mx-32">
+        <div class="w-[550px] h-[264px] my-24">
+            <h1 class="text-[#050038] text-[48px] font-bold w-[440px]">Work together, wherever you work</h1>
+            <p class="w-[453px] text-[18px] text-[#4262ff] pt-6">In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.</p>
+            <button class="mt-10 flex text-[#4262ff] text-[18px]">
+                <a class="underline" href="">Learn more</a>
+                <p>→</p>
+            </button>
+        </div>
+        <div>
+            <img class="w-[550px] h-[535px]" src="./assets/hybridwork.png.png" alt="">
+        </div>
+    </section>
+
+    <section class="flex mx-32 gap-12">
+        <div>
+            <img class="w-[550px] h-[497px]" src="./assets/Integrations.png.png" alt="">
+        </div>       
+        <div class="w-[355px] h-[168px] my-24">
+            <h1 class="text-[#050038] text-[48px] font-bold w-[355px]">Connect your tools, close your tabs</h1>
+            <p class="w-[458px] text-[18px] text-[#4262ff] pt-6">Whether you want to edit your Google Docs, resolve Jira issues, or collaborate over Zoom, Miro has 100+ integrations with tools you already use and love.</p>
+            <button class="mt-10 flex text-[#4262ff] text-[18px]">
+                <a class="underline" href="">Learn more</a>
+                <p>→</p>
+            </button>
+        </div>
+    </section>
+
+    <section class="my-24">
+        <img class="w-[1440px] h-[450px]" src="./assets/section.png" alt="">
+    </section>
+
+    <section class="my-24 mx-32">
+        <div>
+            <h1 class="text-[48px] font-bold text-[#050038]">Built for the way you work</h1>
+            <ul class="flex gap-12 mt-10 text-[14px] text-[#050038]">
+                <li><a href="">Brainstorming</a></li>
+                <li><a href="">Diagramming</a></li>
+                <li><a href="">Meetings & Workshops</a></li>
+                <li><a href="">Scrum Events</a></li>
+                <li><a href="">Mapping</a></li>
+                <li><a href="">Research & Design</a></li>
+                <li><a href="">Strategic Planning</a></li>
+            </ul>
+        </div>
+
+        <div class="flex gap-8 mt-10">
+        <div class="text-[18px] w-[302px] mt-10 text-[#050038]">
+            <h1>Brainstorming</h1>
+            <p class="mt-10">Unleash creative ideas and build on them with the help of sticky notes, images, mind maps, videos, drawing capabilities — the list goes on.</p>
+            <button class="mt-10 flex text-[#4262ff] text-[18px]">
+                <a class="underline" href="">Learn more</a>
+                <p>→</p>
+            </button>
+        </div>
+        <div>
+            <img class="w-[700px] h-[517px]" src="./assets/Brainstorm.jpg.png" alt="">
+        </div>
+    </div>
+    </section>
+
+    <section class="my-24 mx-32">
+        <div>
+            <h1 class="text-[48px] font-bold text-[#050038]">Built for all kinds of teams</h1>
+            <ul class="flex gap-12 mt-10 text-[14px] text-[#050038]">
+                <li><a href="">UX & Design</a></li>
+                <li><a href="">Marketing</a></li>
+                <li><a href="">Product Management</a></li>
+                <li><a href="">Engineering</a></li>
+                <li><a href="">Consultants</a></li>
+                <li><a href="">Agile Coaches</a></li>
+                <li><a href="">Sales</a></li>
+            </ul>
+        </div>
+
+        <div class="flex gap-8 mt-10">
+        <div class="text-[18px] w-[302px] mt-10 text-[#050038]">
+            <ul class="space-y-2">
+                <li><span class="font-bold">-  </span>Build low-fi wireframes</li>
+                <li><span class="font-bold">-  </span>Involve stakeholders in the design process</li>
+                <li><span class="font-bold">-  </span>Run engaging design workshops</li>
+            </ul>
+            <button class="mt-10 flex text-[#4262ff] text-[18px]">
+                <a class="underline" href="">Learn more</a>
+                <p>→</p>
+            </button>
+            <div>
+                <img class="w-[302px] h-[84px] mt-10" src="./assets/teams.png" alt="">
+            </div>
+        </div>
+        <div>
+            <img class="w-[700px] h-[517px]" src="./assets/build.png" alt="">
+        </div>
+    </div>
+    </section>
+
+    <section>
+        <img class="h-[922px] w-full" src="./assets/option.png" alt="">
+    </section>
+
+    <section class="my-24">
+        <div>
+            <h1 class=" text-[#050038] text-center text-[48px] font-bold">Loved by the world's best teams</h1>
+        </div>
+
+        <button class="mt-4 w-[440px] h-[48px] px-4  border rounded-full border-[#4262FF] text-[#4262ff] ml-[450px] text-center">See all customer stories →</button>
+
+        <div class="mx-32 flex gap-24 mt-12 w-[1140px] font-Inter">
+            <div>
+                <h1 class="font-bold text-5xl text-[#050038]">vm<span class="text-[#050038] font-normal">ware</span></h1>
+                <p class="mt-8 text-[#4262FF] w-[291px]">“When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.”</p>
+                <p class="text-[#4262ff] text-right mt-8">Roxanne Mustafa <br>
+                    Design Team Lead at VMware</p>
+            </div>
+            <div>
+                <h1 class="font-bold text-5xl text-[#050038]">DocuSign</h1>
+                <p class="mt-8 text-[#4262FF] w-[281px]">“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</p>
+                <p class="text-[#4262ff] text-right mt-[70px]">Jane Ashley <br>
+                    Head of Design at DocuSign</p>
+            </div>
+            <div>
+                <h1 class="font-bold text-5xl text-[#050038]">frog</h1>
+                <p class="mt-8 text-[#4262FF] w-[283px]">“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”</p>
+                <p class="text-[#4262ff] text-right mt-[54px]">Laura Baird <br>
+                    Associate Design Director at froge</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bg-[#050038] border w-[1120px] h-[448px] mx-32 rounded-3xl pt-48">
+        <h1 class="text-[48px] font-bold text-white text-center">Join 45M+ users today</h1>
+        <div class="text-center ">
+        <p class="text-[18px] text-white">Start for free — upgrade anytime.</p>
+        <a class="underline text-[18px] text-white" href="">Joining as an organization? Contact Sales</a>
+    </div>
+    </section>
+
+    <footer class="bg-[#050038] mt-24 py-8 w-full h-[686px]">
+        <div class="container mx-auto font-Roboto px-4 grid grid-cols-1 md:grid-cols-5">
+          <div>
+            <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 w-[179px] h-[33px]">Product</h2>
+            <ul class="text-gray-400 space-y-2 mt-12">
+              <li><a href="#" class="hover:text-white">Online whiteboard</a></li>
+              <li><a href="#" class="hover:text-white">Apps & Integration</a></li>
+              <li><a href="#" class="hover:text-white">Templates</a></li>
+              <li><a href="#" class="hover:text-white">Microverse</a></li>
+              <li><a href="#" class="hover:text-white">Micro Developer Platform</a></li>
+              <li><a href="#" class="hover:text-white">Micro for Devices</a></li>
+              <li><a href="#" class="hover:text-white">Security & Compliance</a></li>
+              <li><a href="#" class="hover:text-white">Accessibility</a></li>
+              <li><a href="#" class="hover:text-white">Changelog</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 w-[179px] h-[33px]">Solutions</h2>
+            <ul class="text-gray-400 space-y-2 mt-12">
+              <li><a href="#" class="hover:text-white">Meeting & Workshops</a></li>
+              <li><a href="#" class="hover:text-white">Brainstorming & Ideation</a></li>
+              <li><a href="#" class="hover:text-white">Agile Workflows</a></li>
+              <li><a href="#" class="hover:text-white">Diagramming</a></li>
+              <li><a href="#" class="hover:text-white">Research & Design</a></li>
+              <li><a href="#" class="hover:text-white">Strategy & Planning</a></li>
+              <li><a href="#" class="hover:text-white">Mind Map</a></li>
+              <li><a href="#" class="hover:text-white">Concert Map</a></li>
+              <li><a href="#" class="hover:text-white">Online Sticky Notes</a></li>
+              <li><a href="#" class="hover:text-white">Flowchart</a></li>
+              <li><a href="#" class="hover:text-white">Wireframing</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 w-[179px] h-[33px]">Resources</h2>
+            <ul class="text-gray-400 space-y-2 mt-12">
+              <li><a href="#" class="hover:text-white">Micro Academy</a></li>
+              <li><a href="#" class="hover:text-white">Help Center</a></li>
+              <li><a href="#" class="hover:text-white">Blog</a></li>
+              <li><a href="#" class="hover:text-white">Status</a></li>
+              <li><a href="#" class="hover:text-white">Micro Community</a></li>
+              <li><a href="#" class="hover:text-white">Micro Professional Network</a></li>
+              <li><a href="#" class="hover:text-white">Micro Experts Directory</a></li>
+              <li><a href="#" class="hover:text-white">Micro Events</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 w-[179px] h-[33px]">Company</h2>
+            <ul class="text-gray-400 space-y-2 mt-12">
+              <li><a href="#" class="hover:text-white">About Us</a></li>
+              <li><a href="#" class="hover:text-white">Careers</a></li>
+              <li><a href="#" class="hover:text-white">Micro in the News</a></li>
+              <li><a href="#" class="hover:text-white">Customer Stories</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2 class="text-[28px] text-[#F3F6FF] font-Roboto font-bold mb-4 h-[33px]">Plans & Pricing</h2>
+            <ul class="text-gray-400 space-y-2 mt-12">
+              <li><a href="#" class="hover:text-white">Pricing</a></li>
+              <li><a href="#" class="hover:text-white">Business</a></li>
+              <li><a href="#" class="hover:text-white">Enterprise</a></li>
+              <li><a href="#" class="hover:text-white">Consultants</a></li>
+              <li><a href="#" class="hover:text-white">Education</a></li>
+              <li><a href="#" class="hover:text-white">Startups</a></li>
+              <li><a href="#" class="hover:text-white">NPONs</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="mt-32">
+
+        <section class="flex justify-between mx-12">
+            <div class="flex gap-6 pt-10">
+                <ul class="flex gap-6">
+                    <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/twitter.png" alt=""></a></li>
+                    <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/facebook.png" alt=""></a></li>
+                    <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/linkedin.png" alt=""></a></li>
+                    <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/instagram.png" alt=""></a></li>
+                    <li><a href="#"><img class="w-[24px] h-[24px]" src="./assets/youtube.png" alt=""></a></li>
+                    <li class=" text-white"><a class="flex gap-4" href="#"><img class="w-[24px] h-[24px] bg-white" src="./assets/world.png" alt="">EN</a></li>
+                </ul>
+                <ul class=" flex gap-6 text-white">
+                    <li><a href="#">© 2024 Miro</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Manage Cookies</a></li>
+                </ul>
+            </div>
+            <div>
+                <img class="w-[355px] h-[47px] mt-10" src="./assets/playstore.png" alt="">
+            </div>
+        </section>
+    </div>
+    </footer>
+</body>
+</html>
